@@ -1,0 +1,20 @@
+1.npx create-react-app my-app ->快速創建一個為my-app的react檔案
+2檔案解析：src>index.js =檔案設定的入口 （引入react reactdom會把寫好的東西render出來 APP入口）
+3.jsx 
+
+載入css樣式
+編輯各component
+
+item.js是list.js子層
+
+切版>規劃狀態
+props傳入的感覺
+state本身狀態
+
+state寫在Home 這樣List Edit就可以共享這個狀態
+usestate
+
+ const [data,setData] = useState([]);  setData=要更新得值
+
+
+ edit 讓input各自去綁定useState
